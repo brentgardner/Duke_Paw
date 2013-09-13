@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "Duke_PAW_SSIS", "Duke_PAW_SSIS\Duke_PAW_SSIS.dtproj", "{35E3B9F0-386A-405B-A2F8-66A5DB45EE64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35E3B9F0-386A-405B-A2F8-66A5DB45EE64}.Development|Default.ActiveCfg = Development
+		{35E3B9F0-386A-405B-A2F8-66A5DB45EE64}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
