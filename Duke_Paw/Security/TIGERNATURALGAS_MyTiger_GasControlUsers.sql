@@ -1,0 +1,2 @@
+﻿CREATE USER [TIGERNATURALGAS\MyTiger_GasControlUsers] FOR LOGIN [TIGERNATURALGAS\MyTiger_GasControlUsers];
+

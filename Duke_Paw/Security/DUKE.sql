@@ -1,0 +1,3 @@
+﻿CREATE SCHEMA [DUKE]
+    AUTHORIZATION [dbo];
+
