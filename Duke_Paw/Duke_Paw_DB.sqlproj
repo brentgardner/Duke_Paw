@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{bee56e3f-e5bc-4054-b31e-04783854d849}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql100DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -25,6 +25,7 @@
     <TargetDatabase>Duke_Paw</TargetDatabase>
     <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
     <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+    <DefaultSchema>Duke</DefaultSchema>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -70,5 +71,10 @@
     <Build Include="Security\TIGERNATURALGAS_SQL_DBA.sql" />
     <Build Include="Security\RoleMemberships.sql" />
     <Build Include="Security\DUKE.sql" />
+    <Build Include="DUKE\Tables\DailyUsageStaging.sql" />
+    <Build Include="DUKE\Tables\DailyUsageData.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Duke_Paw_DB.refactorlog" />
   </ItemGroup>
 </Project>

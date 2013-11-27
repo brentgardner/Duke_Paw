@@ -32,5 +32,10 @@
       <FullPath>Package.dtsx</FullPath>
       <References />
     </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>DailyUsageImport.dtsx</Name>
+      <FullPath>DailyUsageImport.dtsx</FullPath>
+      <References />
+    </DtsPackage>
   </DTSPackages>
 </Project>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="330996cf-8525-4c2b-aaaa-babda0e253f6" ChangeDateTime="11/25/2013 21:21:00">
+    <Property Name="ElementName" Value="[Duke].[DailyUsageData].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Duke].[DailyUsageData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UsageId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="31594706-5fb2-4b15-8765-868c317c4e79" ChangeDateTime="11/26/2013 01:53:20">
+    <Property Name="ElementName" Value="[Duke].[DailyUsageData].[CustomerId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Duke].[DailyUsageData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Customer_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e42fc2d9-0dd6-41a9-8552-4940cf1f3328" ChangeDateTime="11/26/2013 02:00:27">
+    <Property Name="ElementName" Value="[Duke].[DailyUsageData].[CustomerName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Duke].[DailyUsageData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BillingPeriod" />
+  </Operation>
+</Operations>
