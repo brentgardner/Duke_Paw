@@ -37,5 +37,10 @@
       <FullPath>DailyUsageImport.dtsx</FullPath>
       <References />
     </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ResponseImport.dtsx</Name>
+      <FullPath>ResponseImport.dtsx</FullPath>
+      <References />
+    </DtsPackage>
   </DTSPackages>
 </Project>
